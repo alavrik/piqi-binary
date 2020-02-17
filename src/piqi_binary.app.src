@@ -1,4 +1,5 @@
 {application, piqi_binary, [
+    {applications, [kernel, stdlib]},
     {description, "'piqi' binary executable pre-built for various platforms"},
     {vsn, git}
 ]}.
